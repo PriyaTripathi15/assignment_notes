@@ -231,10 +231,10 @@ Frontend will run at `http://localhost:5173` or `http://localhost:3000`
 ![Dashboard](./ss/dashboard.png)
 
 ### Profile Page
-![Profile Page](./ss/edit.png)
+![Profile Page](./ss/profile.png)
 
 ### Notes Management
-![Notes Management](./docs/screenshots/notes.png)
+![Notes Management](./ss/edit.png.png)
 
 
 ## 👨‍💻 Developer
