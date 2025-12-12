@@ -8,7 +8,7 @@ import Profile from './pages/Profile'
 import ProtectedRoute from './components/ProtectedRoute'
 
 // ✅ Import the logo from src/assets
-import logo from './assets/logo.png'
+import logo from '/logo.png';
 
 export default function App() {
 
