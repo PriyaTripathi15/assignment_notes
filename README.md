@@ -220,20 +220,21 @@ Frontend will run at `http://localhost:5173` or `http://localhost:3000`
 ---
 
 ## 📸 Screenshots
+### Home Page
+![Home Page](./ss/home.png)
 
-### Landing Page
-_[Add screenshot of your landing page]_
 
-### Login/Signup
-_[Add screenshot of authentication pages]_
+### Login Page
+![Login Page](./ss/login.png)
 
 ### Dashboard
-_[Add screenshot of notes dashboard]_
+![Dashboard](./ss/dashboard.png)
 
-### Create/Edit Note
-_[Add screenshot of note creation/editing]_
+### Profile Page
+![Profile Page](./ss/edit.png)
 
----
+### Notes Management
+![Notes Management](./docs/screenshots/notes.png)
 
 
 ## 👨‍💻 Developer
