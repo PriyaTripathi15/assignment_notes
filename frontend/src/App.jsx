@@ -18,43 +18,70 @@ export default function App(){
 
   return (
     <div className="min-h-screen bg-slate-50">
-      
-    <nav className="bg-blue-200 shadow p-4 flex justify-between items-center">
+<nav className="bg-blue-200 shadow p-4 flex justify-between items-center font-mono">
   
-  {/* Logo + Name */}
+  {/* Logo */}
   <Link to="/" className="flex items-center gap-2 group">
-    
-    {/* Book Logo */}
-    <img src='../public/logo.png' alt='Logo' className="w-22 h-22 object-contain group-hover:rotate-12 transition-transform" />
+    <img 
+      src="../public/logo.png" 
+      alt="Logo" 
+      className="w-22 h-22 object-contain group-hover:rotate-12 transition-transform" 
+    />
+  </Link>
 
-    {/* Text */}
-     </Link>
+  {/* Right Navigation */}
+  <div className="flex items-center gap-4">
 
-  <div className="space-x-6 text-white font-semibold">
-
-    {/* IF LOGGED IN */}
     {token ? (
       <>
-        <Link className=" text-black hover:text-gray-300 transition" to="/dashboard">Dashboard</Link>
-        <Link className="hover:text-gray-300 transition" to="/profile">Profile</Link>
+        {/* Dashboard */}
+        <Link 
+          to="/dashboard"
+          className="px-4 py-1 bg-white border border-black rounded-xl hover:bg-blue-100 transition"
+        >
+          Dashboard
+        </Link>
 
+        {/* Profile */}
+        <Link 
+          to="/profile"
+          className="px-4 py-1 bg-white border border-black rounded-xl hover:bg-blue-100 transition"
+        >
+          Profile
+        </Link>
+
+        {/* Logout */}
         <button 
-          onClick={handleLogout} 
-          className="text-red-300 hover:text-red-400 font-semibold"
+          onClick={handleLogout}
+          className="px-4 py-1 bg-red-500 text-white border border-black rounded-xl hover:bg-red-600 transition"
         >
           Logout
         </button>
       </>
     ) : (
       <>
-        {/* IF NOT LOGGED IN */}
-        <Link className="hover:text-gray-300 text-2xl transition" to="/login">Login</Link>
-        <Link className="hover:text-gray-300   text-2xl transition" to="/register">Register</Link>
+        {/* Sign In */}
+        <Link 
+          to="/login"
+          className="px-4 py-1 bg-white border border-black rounded-xl hover:bg-blue-100 transition"
+        >
+          Log In
+        </Link>
+
+        {/* Sign Up */}
+        <Link 
+          to="/register"
+          className="px-4 py-1 bg-white border border-black rounded-xl hover:bg-blue-100 transition"
+        >
+          Register
+        </Link>
       </>
     )}
 
   </div>
 </nav>
+
+
 
 
       <div className="container mx-auto p-4">
