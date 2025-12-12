@@ -9,7 +9,7 @@ A modern, secure, and scalable web application built as part of the **Frontend D
 ## 🚀 Live Demo
 - **Frontend**: [Deployed Link](#) _(https://assignment-notes-mihr.vercel.app/)_
 - **Backend**: [Deployed Link](#) _(https://assignment-notes-3.onrender.com)_
-- **Backend API**: [API Docs](#) _(Add your API documentation link)_
+  
 
 ---
 
@@ -223,7 +223,6 @@ Frontend will run at `http://localhost:5173` or `http://localhost:3000`
 ### Home Page
 ![Home Page](./ss/home.png)
 
-
 ### Login Page
 ![Login Page](./ss/login.png)
 
@@ -234,15 +233,15 @@ Frontend will run at `http://localhost:5173` or `http://localhost:3000`
 ![Profile Page](./ss/profile.png)
 
 ### Notes Management
-![Notes Management](./ss/edit.png.png)
+![Notes Management](./ss/edit.png)
 
 
 ## 👨‍💻 Developer
 
 **Priya Tripathi**  
 - GitHub: [@PriyaTripathi15](https://github.com/PriyaTripathi15)
-- Email: [Your Email]
-- Portfolio: [Your Portfolio Link]
+- Email: [priyatripathi0415@gmail.com]
+
 
 ---
 
