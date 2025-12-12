@@ -13,3 +13,113 @@
 .fade-in {
   animation: fadeIn 1s ease-out forwards;
 }
+/* Animation for fade-in + slide-up */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Apply animation to forms */
+.fade-in-up {
+  animation: fadeInUp 0.7s ease-out forwards;
+}
+
+/* Form container */
+.form-container {
+  max-width: 400px;
+  width: 100%;
+  padding: 24px;
+  background-color: rgba(20, 20, 20, 0.85); /* semi-transparent dark */
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+
+/* Inputs */
+.input {
+  width: 100%;
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 1px solid #444;
+  background-color: rgba(30, 30, 30, 0.9);
+  color: #fff;
+  transition: border-color 0.3s, box-shadow 0.3s, transform 0.3s;
+}
+
+.input:focus {
+  border-color: #1e90ff;
+  box-shadow: 0 0 6px rgba(30, 144, 255, 0.5);
+  outline: none;
+  transform: translateY(-2px);
+}
+
+/* Buttons */
+.btn {
+  width: 100%;
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: none;
+  background-color: #1e90ff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+.btn:hover {
+  background-color: #1c86ee;
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(30, 144, 255, 0.4);
+}
+
+/* Secondary button for neutral actions */
+.btn-secondary {
+  width: 100%;
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 1px solid #444;
+  background-color: rgba(40, 40, 40, 0.9);
+  color: #e5e5e5;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+.btn-secondary:hover {
+  background-color: rgba(60, 60, 60, 0.95);
+  transform: scale(1.02);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
+}
+
+/* Error message */
+.text-red {
+  color: #ff4d4f;
+  text-align: center;
+}
+
+/* Links */
+.link {
+  color: #1e90ff;
+  text-decoration: none;
+  transition: text-decoration 0.2s;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+/* Page background */
+.page-bg {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 80px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
