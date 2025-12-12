@@ -14,6 +14,14 @@ app.use('/api/auth', authRoutes);
 app.use('/api/notes', notesRoutes);
 
 app.get('/', (req,res)=> res.send({status: 'OK'}));
+app.get('/test', async (req, res) => {
+  try {
+    const users = await mongoose.connection.db.collection('users').find().toArray();
+    res.json(users);
+  } catch (err) {
+    res.status(500).send(err.message);
+  }
+});
 
 const PORT = process.env.PORT || 5000;
 mongoose.connect(process.env.MONGO_URI || 'mongodb://localhost:27017/mern_app')
