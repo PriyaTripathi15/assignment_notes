@@ -7,7 +7,8 @@ A modern, secure, and scalable web application built as part of the **Frontend D
 ---
 
 ## 🚀 Live Demo
-- **Frontend**: [Deployed Link](#) _(Add your deployment link)_
+- **Frontend**: [Deployed Link](#) _(https://assignment-notes-mihr.vercel.app/)_
+- **Backend**: [Deployed Link](#) _(https://assignment-notes-3.onrender.com)_
 - **Backend API**: [API Docs](#) _(Add your API documentation link)_
 
 ---
