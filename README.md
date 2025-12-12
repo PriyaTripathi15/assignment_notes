@@ -88,7 +88,7 @@ assignment_notes/
 ### Prerequisites
 - Node.js (v16+)
 - npm or yarn
-- MongoDB/PostgreSQL/MySQL installed
+- MongoDB installed
 
 ### 1️⃣ Clone the Repository
 ```bash
@@ -263,7 +263,7 @@ This project is created as part of an internship assignment and is for education
 
 For any queries regarding this project: 
 - Open an issue on [GitHub](https://github.com/PriyaTripathi15/assignment_notes/issues)
-- Email: [Your Email]
+- Email: [priyatripathi0415@gmail.com]
 
 ---
 
