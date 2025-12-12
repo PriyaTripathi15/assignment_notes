@@ -16,8 +16,8 @@ A modern, secure, and scalable web application built as part of the **Frontend D
 ## ✨ Features
 
 ### 🎨 Frontend (Primary Focus)
-- ✅ **Modern UI/UX** - Built with React.js/Next.js
-- ✅ **Responsive Design** - TailwindCSS/Material UI/Bootstrap
+- ✅ **Modern UI/UX** - Built with React.js
+- ✅ **Responsive Design** - TailwindCSS/
 - ✅ **Form Validation** - Client-side and server-side validation
 - ✅ **Protected Routes** - Authentication required for dashboard access
 - ✅ **Search & Filter** - Find notes quickly and efficiently
@@ -39,9 +39,9 @@ A modern, secure, and scalable web application built as part of the **Frontend D
 - ✅ **Logout Flow** - Secure session management
 
 ### 🛠️ Backend (Supportive)
-- ✅ **Lightweight Backend** - Node.js/Express or Python (FastAPI/Django)
+- ✅ **Lightweight Backend** - Node.js/Express
 - ✅ **RESTful APIs** - Clean and organized API structure
-- ✅ **Database Integration** - MongoDB/PostgreSQL/MySQL
+- ✅ **Database Integration** - MongoDB
 - ✅ **Scalable Architecture** - Modular and maintainable code structure
 
 ---
@@ -50,12 +50,12 @@ A modern, secure, and scalable web application built as part of the **Frontend D
 
 | Category | Technology |
 |----------|-----------|
-| **Frontend** | React.js / Next.js |
-| **Styling** | TailwindCSS / Material UI / Bootstrap |
-| **Backend** | Node.js + Express / Python (FastAPI/Django) |
-| **Database** | MongoDB / PostgreSQL / MySQL |
+| **Frontend** | React.js |
+| **Styling** | TailwindCSS |
+| **Backend** | Node.js + Express  |
+| **Database** | MongoDB L |
 | **Authentication** | JWT (JSON Web Tokens) |
-| **Password Security** | bcrypt |
+| **Password Security** | bcryptjs |
 | **API Testing** | Postman |
 
 ---
@@ -68,8 +68,7 @@ assignment_notes/
 │   ├── controllers/       # Business logic
 │   ├── models/           # Database schemas
 │   ├── routes/           # API endpoints
-│   ├── middleware/       # Auth & validation
-│   ├── config/           # Database & environment config
+│   ├── middleware/       # Auth & validation        
 │   └── server.js         # Entry point
 ├── frontend/
 │   ├── src/
@@ -79,7 +78,6 @@ assignment_notes/
 │   │   ├── context/      # State management
 │   │   └── App.js        # Main app component
 │   └── public/           # Static assets
-├── postman_collection.json  # API testing collection
 └── README.md             # You are here! 
 ```
 
@@ -211,7 +209,7 @@ Frontend will run at `http://localhost:5173` or `http://localhost:3000`
 
 ## 📦 Deliverables
 
-✅ Fully functional frontend (React/Next.js) and backend (Node.js/Python)  
+✅ Fully functional frontend (React) and backend (Node.js)  
 ✅ Working authentication system (register/login/logout with JWT)  
 ✅ Dashboard with CRUD operations on notes  
 ✅ Postman collection for API testing  
@@ -237,17 +235,6 @@ _[Add screenshot of note creation/editing]_
 
 ---
 
-## 🎯 Evaluation Criteria Met
-
-| Criteria | Implementation |
-|----------|---------------|
-| **UI/UX Quality** | ✅ Responsive, modern, and intuitive design |
-| **Frontend-Backend Integration** | ✅ Seamless API communication |
-| **Security Practices** | ✅ Password hashing, JWT, validation |
-| **Code Quality** | ✅ Clean, modular, well-documented |
-| **Scalability Potential** | ✅ Feature-based structure, ready for growth |
-
----
 
 ## 👨‍💻 Developer
 
@@ -255,18 +242,6 @@ _[Add screenshot of note creation/editing]_
 - GitHub: [@PriyaTripathi15](https://github.com/PriyaTripathi15)
 - Email: [Your Email]
 - Portfolio: [Your Portfolio Link]
-
----
-
-## 📝 Assignment Submission
-
-**Submitted to**:
-- saami@bajarangs.com
-- nagasai@bajarangs.com
-- chetan@bajarangs.com
-- CC: sonika@primetrade. ai
-
-**Subject**: Frontend Developer Task
 
 ---
 
